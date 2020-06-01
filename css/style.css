@@ -384,15 +384,20 @@ padding-top: 25px;
 	justify-content: center;
 	padding-top: 50px;
 }
-.email-input {
+.wrap-subscribe {
+	display: flex;
+	flex-wrap: wrap;
+}
+.wrap-subscribe > .email-input {
+	font-size: 16px;
 	color: grey;
 	display: flex;
 	align-items: center;
 	background-color: #fff;
 	box-sizing: border-box;
 	flex: 0 1 521px;
-	max-width: 521px;
-	max-height: 79px;
+	width: 521px;
+	height: 79px;
 	padding: 0;
 	padding-left: 35px;
 	border: none;
@@ -559,8 +564,6 @@ footer {
 		max-width: unset;
 		padding-left: 1vw;
 		padding-right: 1vw;
-	}
-
 	}
 	.main-team {
 		padding-left: 1vw;
