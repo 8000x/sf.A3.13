@@ -636,7 +636,7 @@ footer {
 		max-width: 100%;
 	}
 	.contacts-feedback {
-		width: -webkit-fill-available;
+		width: 100%;
     	align-items: baseline;
 		height: unset;
 	}
