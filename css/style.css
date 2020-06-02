@@ -120,6 +120,7 @@ p {
 	text-decoration: none;
 	background-color: #ff2d2d;
 	border-radius: 5px;
+	border: 0;
 }
 .leftside-pageone {
 	position: relative;
@@ -571,7 +572,7 @@ footer {
     	margin-right: 0;
 	}
 	.img-products > img {
-		max-width: unset;
+		max-width: 46vw;
 		padding-left: 1vw;
 		padding-right: 1vw;
 	}
