@@ -435,7 +435,9 @@ padding-top: 25px;
 	flex-wrap: wrap;
 }
 
-.form-feedback > div {
+.name-input,
+.form-feedback > .email-input,
+.message-input {
 	color: grey;
 	display: flex;
 	align-items: center;
@@ -452,6 +454,7 @@ padding-top: 25px;
 	width: 339px;
 	max-width: 339px;
 	height: 69px;
+	font-size: 16px;
 }
 
 .name-input {
@@ -556,9 +559,16 @@ footer {
 	.main-pagetwo {
 		padding: 0 1vw;
 	}
+	.text-featureproducts {
+		margin: 0;
+	}
 	.menu-featureproducts {
-	flex-direction: column;
-    align-items: center;
+		flex-direction: column;
+    	align-items: center;
+	}
+	.menu-featureproducts a {
+		left: 0;
+    	margin-right: 0;
 	}
 	.img-products > img {
 		max-width: unset;
@@ -593,6 +603,12 @@ footer {
 	}
 	.main-subscribe {
 	padding: 3vw 1vw;
+	}
+	.wrap-subscribe > .email-input {
+		max-width: 60vw;
+	}
+	.button-subscribe {
+		max-width: 30vw;
 	}
 	.feedback {
 		max-width: 100%;

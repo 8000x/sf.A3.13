@@ -117,9 +117,9 @@
 				<h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod.</p>
 				<div class="form-subscribe">
-					<form class="wrap-subscribe" method="GET">
-						<input class="email-input" type="Email" name="" id="" placeholder="Email Address..." required>
-						<input type="submit" value="subscribe" class="button-subscribe">
+					<form class="wrap-subscribe" method="GET" action="">
+						<input class="email-input" type="Email" name="mail" id="" placeholder="Email Address..." required>
+						<input class="button-subscribe" type="submit" value="subscribe">
 					</form>
 				</div>
 			</div>
@@ -128,12 +128,12 @@
 					<h2>Get in touch</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et.</p>
 					<hr class="hr-red">
-					<div class="form-feedback">
-						<div class="name-input">Name</div>
-						<div class="email-input">Your Mail</div>
-						<div class="message-input">Type your message</div>
-						<a class="send-button" href="">Send message</a>
-					</div>
+					<form class="form-feedback" method="GET" action="">
+						<input class="name-input" type="text" maxlength="40" name="fname" id="" placeholder="Name">
+						<input class="email-input" type="Email" name="fmail" id="" placeholder="Your Mail">
+						<input class="message-input" type="text" maxlength="500" name="msg" id="" placeholder="Type your message">
+						<input class="send-button" type="submit" value="Send message">
+					</form>
 				</div>
 				<div class="contacts-feedback">
 					<h2>Contact info</h2>
